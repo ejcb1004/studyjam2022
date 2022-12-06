@@ -14,7 +14,7 @@
     <?php
         require_once "../classes/level-1.class.php";
 
-        $data = (new LevelOne)->
+        $data = (new LevelOne)->levelOneSelect();
     ?>
 </body>
 
