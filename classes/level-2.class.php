@@ -1,31 +1,31 @@
 <?php
-    require_once "connection.php";
+require_once "connection.php";
 
-    class LevelTwo
+class LevelTwo
+{
+    // variable
+    private $select_data;
+    private $insert_data;
+    private $update_data;
+    private $delete_data;
+
+    public function levelTwoSelect()
     {
-        public function levelTwoSelect()
-        {
-
-        }
-
-        public function levelTwoInsert()
-        {
-
-        }
-
-        public function levelTwoUpdate()
-        {
-            
-        }
-
-        public function levelTwoDelete()
-        {
-            
+        $this->select_data = (new Connection)->connect()->query("SELECT * FROM topics")->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($this->select_data as $item) {
+            echo $item['id'] . ' ' . $item['topic_name'] . '<br>';
         }
     }
 
-    $test = (new Connection)->connect()->query("SELECT * FROM topics")->fetchAll(PDO::FETCH_ASSOC);
-    foreach ($test as $item) {
-        echo $item['id'] . ' ' . $item['topic_name'] . '<br>';
+    public function levelTwoInsert()
+    {
     }
-?>
+
+    public function levelTwoUpdate()
+    {
+    }
+
+    public function levelTwoDelete()
+    {
+    }
+}

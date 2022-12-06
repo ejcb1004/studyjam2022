@@ -19,16 +19,13 @@ class LevelOne
 
     public function levelOneInsert()
     {
-
     }
 
     public function levelOneUpdate()
     {
-
     }
 
     public function levelOneDelete()
     {
-        
     }
 }
