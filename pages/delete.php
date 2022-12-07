@@ -16,7 +16,7 @@
     <h1>DELETE Query</h1>
 
     <?php
-        require_once "../classes/pages.class.php";
+        require_once "../classes/functions.php";
 
         // DELETE statement
         $data = (new Functions)->delete();

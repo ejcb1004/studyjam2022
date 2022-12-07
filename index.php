@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Welcome to Study Jam 2022 2022 - PHP and SQL Database!</h1>
+    <h1>Welcome to Study Jam 2022 - PHP and SQL Database!</h1>
 
     <a href="pages/select.php">Select</a>
     <span>&nbsp;|&nbsp;</span>

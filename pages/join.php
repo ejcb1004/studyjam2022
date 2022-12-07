@@ -11,12 +11,12 @@
 <body>
     <a href="../index.php">Home</a>
     <span>&nbsp;>&nbsp;</span>
-    <b>Join</a>
+    <b>Join</b>
 
     <h1>JOIN Query</h1>
 
     <?php
-        require_once "../classes/pages.class.php";
+        require_once "../classes/functions.php";
 
         // INSERT statement
         $data = (new Functions)->simpleJoin();

@@ -16,7 +16,7 @@
     <h1>SELECT Query</h1>
 
     <?php
-        require_once "../classes/pages.class.php";
+        require_once "../classes/functions.php";
 
         // INSERT statement
         (new Functions)->select();
