@@ -1,7 +1,7 @@
 <?php
 require_once "connection.php";
 
-class LevelOne
+class Functions
 {
     // variable
     private $data;
@@ -27,7 +27,7 @@ class LevelOne
         }
     }
 
-    public function levelOne_select()
+    public function select()
     {
         // select all
         $this->data = $this->getAll();
@@ -36,7 +36,7 @@ class LevelOne
         $this->showAll($this->data);
     }
 
-    public function levelOne_selectWhere()
+    public function selectWhere()
     {
         $this->id = 1;
         // select all
@@ -46,7 +46,7 @@ class LevelOne
         $this->showAll($this->data);
     }
 
-    public function levelOne_insert()
+    public function insert()
     {
         try {
             // initialize local variable
@@ -69,7 +69,7 @@ class LevelOne
         $this->showAll($this->data);
     }
 
-    public function levelOne_update()
+    public function update()
     {
         // initialize local variable
         $id = 2;
@@ -94,7 +94,7 @@ class LevelOne
         $this->showAll($this->data);
     }
 
-    public function levelOne_delete()
+    public function delete()
     {
         // initialize local variable
         $id = 2;
@@ -112,7 +112,7 @@ class LevelOne
         $this->showAll($this->data);
     }
 
-    public function levelOne_simpleJoin()
+    public function simpleJoin()
     {
         $this->data = (new Connection)->connect()->query("SELECT topics.id, subtopics.subtopic_name FROM topics JOIN subtopics on topics.id = subtopics.topic_id")->fetchAll(PDO::FETCH_ASSOC);
         echo '<p>topic_id | subtopic_name</p>';

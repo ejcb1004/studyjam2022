@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LV1 UPDATE | Study Jam</title>
+    <title>UPDATE | Study Jam 2022</title>
 </head>
 
 <body>
@@ -13,13 +13,13 @@
     <span>&nbsp;>&nbsp;</span>
     <b>Update</b>
 
-    <h1>LV1 UPDATE Query</h1>
+    <h1>UPDATE Query</h1>
 
     <?php
         require_once "../classes/level-1.class.php";
 
         // INSERT statement
-        $data = (new LevelOne)->levelOne_update();
+        $data = (new Functions)->update();
     ?>
 </body>
 

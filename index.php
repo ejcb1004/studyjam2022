@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Study Jam</title>
+    <title>Study Jam 2022</title>
 </head>
 
 <body>
-    <h1>Welcome to Study Jam 2022 - PHP and SQL Database!</h1>
+    <h1>Welcome to Study Jam 2022 2022 - PHP and SQL Database!</h1>
 
     <a href="level-1/select.php">Select</a>
     <span>&nbsp;|&nbsp;</span>
