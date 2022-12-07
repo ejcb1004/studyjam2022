@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UPDATE | Study Jam 2022</title>
+    <title>INSERT | Study Jam 2022</title>
 </head>
 
 <body>
     <a href="../index.php">Home</a>
     <span>&nbsp;>&nbsp;</span>
-    <b>Update</b>
+    <b>Insert</b>
 
-    <h1>UPDATE Query</h1>
+    <h1>INSERT Query</h1>
 
     <?php
-        require_once "../classes/level-1.class.php";
+        require_once "../classes/pages.class.php";
 
         // INSERT statement
-        $data = (new Functions)->update();
+        $data = (new Functions)->insert();
     ?>
 </body>
 

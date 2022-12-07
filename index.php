@@ -11,17 +11,17 @@
 <body>
     <h1>Welcome to Study Jam 2022 2022 - PHP and SQL Database!</h1>
 
-    <a href="level-1/select.php">Select</a>
+    <a href="pages/select.php">Select</a>
     <span>&nbsp;|&nbsp;</span>
-    <a href="level-1/select-where.php">Select WHERE</a>
+    <a href="pages/select-where.php">Select WHERE</a>
     <span>&nbsp;|&nbsp;</span>
-    <a href="level-1/insert.php">Insert</a>
+    <a href="pages/insert.php">Insert</a>
     <span>&nbsp;|&nbsp;</span>
-    <a href="level-1/update.php">Update</a>
+    <a href="pages/update.php">Update</a>
     <span>&nbsp;|&nbsp;</span>
-    <a href="level-1/delete.php">Delete</a>
+    <a href="pages/delete.php">Delete</a>
     <span>&nbsp;|&nbsp;</span>
-    <a href="level-1/join.php">Join</a>
+    <a href="pages/join.php">Join</a>
 </body>
 
 </html>

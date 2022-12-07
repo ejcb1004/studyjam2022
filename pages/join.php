@@ -16,7 +16,7 @@
     <h1>JOIN Query</h1>
 
     <?php
-        require_once "../classes/level-1.class.php";
+        require_once "../classes/pages.class.php";
 
         // INSERT statement
         $data = (new Functions)->simpleJoin();
