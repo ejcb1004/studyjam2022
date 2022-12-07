@@ -2,8 +2,8 @@
 
 class Connection {
 	private $servername = "localhost";
-	private $username = "teamw1011";
-	private $password = "%D0ubL3U0414_";
+	private $username = "root";
+	private $password = "";
 	private $database = "studyjam2022";
 	protected $link;
 

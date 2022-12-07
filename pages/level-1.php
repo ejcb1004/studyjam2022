@@ -9,15 +9,26 @@
 </head>
 
 <body>
-    <p>Welcome to Study Jam Level 1!</p>
+    <h1>Welcome to Study Jam Level 1!</h1>
 
     <?php
         require_once "../classes/level-1.class.php";
 
+        // SELECT statement
+        echo '<h2>SELECT statement</h2>';
         $data = (new LevelOne)->levelOneSelect();
-        // $data = (new LevelOne)->levelOneInsert();
-        // $data = (new LevelOne)->levelOneUpdate();
-        // $data = (new LevelOne)->levelOneDelete();
+
+        // INSERT statement
+        echo '<h2>INSERT statement</h2>';
+        $data = (new LevelOne)->levelOneInsert();
+
+        // UPDATE statement
+        echo '<h2>UPDATE statement</h2>';
+        $data = (new LevelOne)->levelOneUpdate();
+        
+        // DELETE statement
+        echo '<h2>DELETE statement</h2>';
+        $data = (new LevelOne)->levelOneDelete();
     ?>
 </body>
 
